@@ -1,0 +1,45 @@
+body {
+    background-color: azure;
+}
+
+header {
+     background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 10px;
+    max-width: 400px;  
+    margin:  0% auto;
+    display: flex;
+}
+
+header a {
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgb(234, 234, 195); 
+    padding: 10px;
+    
+}
+
+header a:hover {
+    background-color: aqua;
+    border: solid 3px white;
+    border-radius: 20px;
+   
+}
+
+@media screen and (max-width:500px) {
+    header {
+        background-color: rgb(139, 118, 118);
+        font-size: 17px;
+        border-radius: 10px;
+        word-spacing: 2px;
+        margin: 10 10px;
+        flex-direction: column;
+    }
+   
+    header a {
+        background-color: antiquewhite;
+        margin: 10px;
+    }
+}
